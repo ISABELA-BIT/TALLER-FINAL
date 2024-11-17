@@ -1,0 +1,100 @@
+<!--Nota.
+Paraa este codigo, se utilizó un archivo .css aparte de los que provee Bottpstrap.
+Esto debido a que se tenia ue cambiar las posiciones de los diferentes cuadros que
+hay en el blog, y bottstrap no permitia la suficiente flexibilidad para ello.
+sin embargo, hay partes del codigo en el que si se utiliza el diseño de bootstrap, como los fondos y el color de letra
+Muchas Gracias.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./Css/bootstrap.css">
+    <link rel="stylesheet" href="./Css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./Css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="./Css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="./Css/EstiloPropio.css">
+    
+    <title>Mi Blog Personal</title>
+</head>
+<body>
+    <main>
+        <section class="Contenido"> <!--Contenido-->
+            <div class="text-center bg-info bg-opacity-10"> <!--Menu-->
+                <h1 class="mb-3 text-primary ">Mi Blog</h1>
+                <div>
+                 <p class="d-inline mx-4 ">
+                    <a href="Seccion_Inicio">Inicio</a>
+                </p>
+                <p class="d-inline mx-4">
+                    <a href="Seccion_Articulos">Articulos</a>
+                </p>
+                <p class="d-inline mx-4">
+                    <a href="Seccion_SobreMi">Sobre mi</a>
+                </p>   
+                </div>
+            </div>
+            <div class="text-center bg-info bg-opacity-10"> <!--Imagen-->
+                <div class="Marco">
+                    <img class="Imagen" src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png" alt="Mi Foto" width="200" height="200">
+                </div>
+            </div>
+            <div class="Articulo1"><!--Titulo Articulo 1-->
+                <div class="mx-4 mt-4">
+                  <h2>Titulo del Articulo 1</h2>
+                    <p>Fecha: 01/01/2024</p>
+                    <p>Contenido Breve del articulo 1...</p>
+                    <p><a href="Seccion_LeerMas">Leer más</a></p>  
+                </div>
+                
+            </div>
+            <div class="Articulo2"><!--Titulo Articulo 2-->
+                <div class="mx-4 mt-4">
+                    <h2>Titulo del Articulo 2</h2>
+                      <p>Fecha: 01/02/2024</p>
+                      <p>Contenido Breve del articulo 2...</p>
+                      <p><a href="Seccion_LeerMas">Leer más</a></p>  
+                  </div>
+            </div>
+
+            <div class="Articulo3"><!--Categorias/Archivos-->
+                <div> <!--Categoiras-->
+                    <div class="mx-2 mt-3">
+                       <h2>Categorias</h2>
+                    <br>
+                    <ul>
+                        <li>
+                            <a href="Seccion_Categoria1" id="Enlace_Simple">Categoria 1</a>
+                        </li>
+                        <li>
+                            <a href="Seccion_Categoria2" id="Enlace_Simple">Categoria 2</a>
+                        </li>
+                    </ul> 
+                    </div>
+                </div>
+                <div><!--Archivos-->
+                    <div class="mx-2 mt-3">
+                     <h2>Archivos</h2>
+                    <br>
+                    <ul>
+                        <li>
+                            <a href="Seccion_Enero" id="Enlace_Simple">Enero de 2024</a>
+                        </li>
+                        <li>
+                            <a href="Seccion_Febrero" id="Enlace_Simple">Febrero de 2024</a>
+                        </li>
+                    </ul>   
+                    </div>
+                </div>
+            </div>
+            <div class="Cuadro4"><!--Pie de pagina-->
+                <div>
+                    <p>©2024 Mi Blog. Todos los derechos reservados</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
